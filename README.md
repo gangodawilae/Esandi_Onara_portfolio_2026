@@ -1,1 +1,2 @@
-[My Protfolio](https://gangodawilae.github.io/Esandi_Onara_portfolio_2026/)
+[My Portfolio](https://gangodawilae.github.io/Esandi_Onara_portfolio_2026/)
+
