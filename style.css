@@ -1,0 +1,97 @@
+
+  *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 16px;
+        outline:invert;
+        text-transform: capitalize;
+        transition: .2s linear;
+        font-family: cursive;
+        }
+   
+    header{
+        position:sticky;
+        top:0; left:0;right: 0;
+        background: rgba(219, 136, 136, 0.795);
+        padding: 2rem 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        }
+
+    .navbar a{
+        color: black;
+        text-decoration: none;
+        padding: 55px;
+        text-align: center;
+        height: 19px;
+    }
+    .navbar ul{
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+      }
+    .navbar a:hover{
+  background-color: #4c585e;
+  
+}
+.navbar li{
+    float: left;
+    }
+  section{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.avif);
+    background-size: cover;
+    background-position:right;
+    background-size: cover;
+    text-align: left;
+    position: relative;
+
+
+}
+.home .introduction{
+    max-width: 50rem;
+    }
+.home .introduction h1{
+     font-size: 3.5rem;
+     color: white;
+     text-align: center;
+   }  
+ .container .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #4b4276;
+    padding: 30px 0;
+    }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
