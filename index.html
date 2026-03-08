@@ -1,145 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style.css">
 </head>
- <nav>
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="Project1.html">Project 1</a></li>
-    <li><a href="Project2.html">Project 2</a></li>
- </ul>
- </nav>  
 <body>
       <header>
-   <h2 class="center-text"> Esandi Onara</h2>
-   <h2 class="center-text">Website Portfolio</h2>
-      </header>
-
-     <section></section>
-     </section> 
-      <section>Lower section</section>
-      <footer>Footer</footer>
-    <h1> Esandi Onara</h1>
- <h1> Website Portfolio</h1>
-     
-    <nav class="navbar">
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="pages/Project1.html">Project 1</a></li>
-    <li><a href="pages/Project2.html">Project 2</a></li>
- </ul>
- </nav> 
-<p> This is about my digital tech project. I like to make it clean,better and nice</p>
-
-     <h2> About Me</h2>
-    
-
-    
-    
-
-</body>
-</html>
-   
-    
-
-
-          ul{
-            margin: 0;
-            padding:0;
-            list-style-type: none;
-            }
-   
-        .center-text{
-            text-align: center;
-            }
-    .header{
-        background-color: aqua;
-        padding: 30px;
-        text-align: center;
-        font-size: 35px;
-        color: black;
-        }
- 
-         * {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-nav{
-    float: left;
-    width: 30%;
-    height: 300px;
-    }
-    nav ul{
-        list-style-type: none;
-        padding: 0;
-        }
-        article{
-            float:left;
-            padding: 20px;
-            width: 70%;
-            background-color: blue;
-            height: 300px;
-            }
-    section::after{
-        content: "";
-        display: table;
-        clear: both;
-        }
-    footer{
-        background-color: aquamarine;
-        padding: 10px;
-        text-align: center;
-        color: black;
-        }
-    @media (max-width:600px){
-        nav,article{
-            width: 100%;
-            height: auto;
-            }
-            }
-
-
-
-            <div class="container">
-    <div class="sidebar">
-        <h2> Sidebar</h2> 
+        <nav class="navbar">
        <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="Project1.html">Project 1</a></li>
     <li><a href="Project2.html">Project 2</a></li>
  </ul>
-    </div>
-</div>
+ </nav>
+    </header>
+     <div class="container">
+    <aside class="sidebar">
+        <h2> Sidebar</h2> 
+         <img src="images/profile.jpg" alt="profile photo" style="width:150px; height:150px; border:4px solid black; border-radius:50%; float:left; display:bloack; margin-top: 50px;">
+         <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+         <div class="contact-container">
+            <form action="https://formspree.io/f/xjgenorv" method="post" class="contact-left">
+            <div class="contatct-left-title">
+                <h2> Contact us</h2>
+                <hr>
+            </div>
+            <input type="text" name="name" placeholder="Your name" class="contact-inputs"required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs"required>
+            <textarea name="message" placeholder="Your message" class="contact-inputs" required> </textarea>
+            <button type="submit">Submit </button>
+            </form>
+            <div class="contatc-right">
+         </div>
+         </div>
+    </aside> 
+    <hr>
+        <section class="home" id="home">
+   <div class="introduction">
+        <h1> Website Portfolio</h1>
+       <h2> Esandi Onara</h2>
+       </div>
+      </section>
+    
+        <article>
+            <h1> About me </h1>
+            <p> I'm Esandi Onara and I'm 15 years old. I currently studying in year 11 at Western Springs College. I've started coding when I was in yaer 10, where I learnt codiing, making websites, and using html and css. I am a motivated,adaptable,responsible student who are seeking a software eengeneer job. I want to be a software engeneer because, it allows me to develop my coding skills, debugging and operate system which I'm very intrested about.I may not have profecial expereinces, but I am motivated,and quick learner who are willing to learn many things in IT.</p>
+        </article>
 
-.container .sidebar{
-    position: fixed;
-    width: 200px;
-    height: 100%;
-    background: #4b4276;
-    padding: 30px 0;
-    }
+       <br>
+      <hr>
+    <footer class="image-container">
+      <div class="cards">
+         <div class="card-img">
+         <img src="images/coffee image.jpg" alt="photo"/>
+         </div>
+         <h2> Project 1</h2>
+        <p> This project is about a cafe where I explained menu,history of the cafe, opening hours and more. This is my first website that I made using html and css at school.</p>
+        <div class="cards-footer">
+            <button>Links to projects</button>
+         </div>
+ </div>
 
-    .introduction{
-    height: 200px;
-    min-width: 100pv;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.avif);
-    background-position:right;
-    background-size: cover;
-    position: relative;
-    text-align: center;
+       <div class="cards">
+         <div class="card-img ">
+            <img src="images/website2.png" alt="website2-photo"/>
+         </div>
+         <h2> Project 2</h2>
+        <p> This is my second website I made using html and css at school. This website based on a New Zealand animal called " kororā" and also as "little penguin", where I explained key details about "Kororā". </p>
+        <div class="cards-footer">
+            <a href="Project2.html">
+            <button>Links to projects</button>
+            </a>
+        </div>
+ </div>
+            
+            
+        
+       </footer>
+  
+      
+    
 
 
-
-
-
-
-
-
-
+ 
+</body>
+</html>
