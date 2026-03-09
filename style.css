@@ -163,7 +163,46 @@
 .buttonAlign {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
+.row{
+  display:flex;
+  align-items: flex-end;
+  gap: 20px;
+}  
+.websites{
+  background: pink;
+  width: 22%;
+  border-radius: 24px;
+  overflow: hidden;
+  }
+  .skills-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    }
+  .website-box{
+    border: 2px  solid blue;
+    padding: 15px;
+    width: 500px;
+    text-align: left;
+    border-radius: 8px;
+  }
+  .website-box h3{
+    text-align: center;
+    }
+   .website-box li{
+    color: #424376;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+.website-box li::marker{
+  content: "★";
+  color:#ff994f;
+  font-size: 20px;
+  }
 
 
    
