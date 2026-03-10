@@ -251,10 +251,31 @@
 
 }
 
+.about-article{
+  padding: 120px 0;
+  background: var(--light-pink-color);
+}
+.about-article .articles-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+.about-image-wrapper .about-image{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15% 50% 30%;
+  }
+  .articles-title{
+    text-align: center;
+  }
+    .website-details p{
+    line-height: 30px;
+    margin: 0% 0 30%;
+    text-align: center;
+    font-size: large;
+    }
 
-
-
-   
 
       
     
