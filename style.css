@@ -84,8 +84,8 @@
     border-radius: 50px;
   }
   .contact-left textarea{
-    height: 90px;
-    border-radius: 20px;
+    height: 50px;
+    border-radius: 10px;
     }
   .contact-inputs{
     border: 2px solid rgb(137, 137, 235);
@@ -198,11 +198,21 @@
     margin-bottom: 5px;
     font-family: 'Poppins',sans-serif;
 }
+.skills-title{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: blue;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: cursive;
+  }
 .website-box li::marker{
   content: "★";
   color:#ff994f;
   font-size: 20px;
   }
+
   .topic{
     margin-left: 7%;
     margin-top: 6%;
@@ -264,26 +274,56 @@
   width: 400px;
   height: 400px;
   object-fit: cover;
-  border-radius: 15% 50% 30%;
+  border-radius: 15% 50% ;
   }
   .articles-title{
     text-align: center;
   }
     .website-details p{
     line-height: 30px;
-    margin: 0% 0 30%;
+    margin: 0% 0 5%;
     text-align: center;
     font-size: large;
     }
-
+.buttonlink{
+ margin-top: 8px;
+ justify-content: flex-start;
+ }
+      
+  .Project-1 {
+   background: pink;
+    background-size: cover;
+    background-position:right;
+    background-size: cover;
+    text-align: left;
+    position: relative;
+}
+.projectOne {
+        display: flex;
+        padding: 10px 40px 20px 30px  ;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        }
+    .small-image{
+      width: 250px;
+      height: 230px;
+      border-radius: 15px;
+      }
+    .main-footer{
+      padding: 20px 0;
+      margin-top: 40px;
+      background-color: lightpink;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      border-top: 3px solid black;
+      margin-bottom: 30px;
+      width:100%
+    }
+    @media screen and (min-width:900px){
 
       
-    
-
-
-
-
-
 
 
 
